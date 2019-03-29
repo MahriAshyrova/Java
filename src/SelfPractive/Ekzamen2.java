@@ -25,10 +25,10 @@ public class Ekzamen2 {
 						int sum=0; 
 						
 						 for (int i=0; i<6; i++) {
-							 if (a[2]%2==a[i]%5) {
+							 if (a[i]%2==a2[i]%5) { // 5==5;
 							//	 i==2
 								 
-							sum+=i*i; 	 
+							sum+=i*i; //2*2;	 
 							 }
 						 }
 						System.out.println("sum = "+sum);
@@ -38,8 +38,8 @@ public class Ekzamen2 {
 				int arr[]=new int [] {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 				
 				int n=6; 
-				n=arr[arr[n]/2];
-				System.out.print(arr[n]/2);
+				n=arr[arr[n]/2]; //6/2=3; 
+				System.out.print(arr[n]/2); //3/2=1, since it is an int --->1; 
 						
 			System.out.println();			
 						
