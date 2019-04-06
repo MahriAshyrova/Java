@@ -12,10 +12,10 @@ public class Task2 {
 		int sum=0; 
 		
 		 for (int i=0; i<6; i++) {
-			 if (a[i]%2==a2[i]%5) {   //11/2=5; 25/5=5; // 5==5;
+			 if (a[i]%2==a2[i]%5) {   //11/2=1; 11/5=1;  // 1==1 -remainders are equal;
 			//	 i==2
 				 
-			sum+=i*i; //2*2;	 
+			sum+=i*i; //2*2;	(index=2)  
 			 }
 		 }
 		System.out.println("sum = "+sum);

@@ -23,20 +23,23 @@ public class Task8 {
 		//  System.out.print("In:");
 		//  int x = inp.nextInt();
 	    
-	    int a=1;
-	    int b=0; 
-	    int c=0; 
+	    int a=0;
+	    int b=1; 
+	    int c; 
 	   		
 	   	for (int y=0; y<10; y++) {
 	   
-	   		c=a+b;	
+	   		c=a+b;
+	   		System.out.print(a+" "); 
 	   		a=b;
 	   		b=c;
 	   		
 	   		
-	   	System.out.print(a+" ");
+	   		
+	   		
+	   	} 	
 	   	
-	   	}
 	}
+	
 
 }

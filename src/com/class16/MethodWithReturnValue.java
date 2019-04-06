@@ -18,7 +18,7 @@ public class MethodWithReturnValue {
 		String day=obj.whatIsADay();
 		System.out.println("Today is "+day);
 		obj.whatIsTheLargestNumber(20, 10);
-		int largestNum=obj.findLargestNum1(20, 10);
+		int largestNum=obj.whatIsTheLargestNumber(20,10);
 		
 		boolean isOdd;
 		
@@ -31,7 +31,6 @@ public class MethodWithReturnValue {
 		}
 			
 
-	}
 	void askHowAreYou(String name) {
 		System.out.println("How are you "+name+"?");
 	}
@@ -47,9 +46,10 @@ public class MethodWithReturnValue {
 		}else {
 			return b;
 		}
-		void largestNum(int a1, int b1) {
+	}
+		void whatIsTheLargestNumber1(int a, int b) {
 			
-			if(a1>b1) {
+			if(a>b) {
 				System.out.println("A is larger than B");	
 			}else {
 				System.out.println("B is larger than A");
