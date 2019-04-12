@@ -13,6 +13,8 @@ public class Task3 {
 		System.out.println(replaced.length());
 	
 		
+		String str1="Maria";
+		System.out.println(str1.length());
 
 
 	}

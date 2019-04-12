@@ -8,6 +8,9 @@ public class Task2 {
 		// Maximum and minimum number in the array?
 
 		
+		
+		
+		
 	int arr[] = {1000, 46, 0, 86, 292, -1};
 	
 	int min =arr[0]; 

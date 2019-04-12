@@ -16,10 +16,15 @@ public class Task5 {
 				reverse=reverse+str.charAt(i);
 			}
 			
+			
+			
 			String [] words=reverse.split(" ");
 			for(int i=words.length-1; i>=0; i--) {
 				System.out.print(words[i]+" ");
 			}
+		
+			System.out.println();
+			System.out.println();
 			
 		
 	}

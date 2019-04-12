@@ -1,6 +1,11 @@
 package com.class20;
 
 public class Task3 {
+	
+	private String name= "John";
+	String name1="Bilal";
+	protected String name2 ="Asha";
+	public String name3="Tetiana";
 
 	public static void main(String[] args) {
 		
@@ -15,6 +20,8 @@ public class Task3 {
 		
 		System.out.println(obj.isPalindrome("mom"));
 		System.out.println(obj.isPalindrome("sister"));
+		
+		obj.sayHello();
 
 	}
 	
@@ -37,6 +44,10 @@ public class Task3 {
 		if(str.equalsIgnoreCase(reversed)) {
 		flag= true;	
 	} return flag;
+	}
+	
+	void sayHello() {
+		System.out.println("Hello!");
 	}
 
 }

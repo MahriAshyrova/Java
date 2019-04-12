@@ -19,6 +19,8 @@ public class Task1 {
 		
 		 email=obj.createEmail("Bob", "Snow", "outlook");
 		
+		 
+		
 	}
 	
 	String createEmail(String userName, String lastName, String emailType) {

@@ -7,6 +7,7 @@ public class Task4 {
 		Task4 obj=new Task4();
 		String [] array= obj.getWords("Hello Students!");
 		
+		
 		for (int i=0; i<=array.length-1; i++) {
 			System.out.println(array[i]);
 			}
@@ -20,6 +21,9 @@ public class Task4 {
 		String [] words= str.split(" ");
 		return words;
 }
+	
+	
+	
 	
 }
 
