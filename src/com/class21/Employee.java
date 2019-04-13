@@ -2,8 +2,8 @@ package com.class21;
 
 public class Employee {
 	
-	public int eID;
-	public int salary;
+	 int eID;
+	 int salary;
 	public static String CEO = "Sumair";
 	
 	
@@ -20,25 +20,19 @@ public class Employee {
 		Employee emp1 = new Employee();
 		emp1.eID=1235;
 		emp1.salary =100;
-		CEO="Asel";
-		
-		System.out.println("The employee ID is "+emp1.eID+", the salary of the employee is "+emp1.salary+", and the CEO is "+CEO);
-
-		
+		emp1.getEmpInfo();
 		
 		Employee emp2 = new Employee();
 		emp2.eID=54321;
-		emp1.salary =150;
-		CEO="Arif";
-		
-		
-		System.out.println("The employee ID is "+emp2.eID+", the salary of the employee is "+emp2.salary+", and the CEO is "+CEO);
-		
-		
-		
+		emp2.salary =150;
+		emp2.getEmpInfo();
 		
 		
 
+	}
+	public void getEmpInfo() {
+		
+		System.out.println("The employee ID is "+eID+", the salary of the employee is "+salary+", and the CEO is "+CEO);
 	}
 
 }

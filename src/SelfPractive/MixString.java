@@ -22,6 +22,26 @@ public class MixString {
 	}
 	
 	
+	String mixedString (String a, String b) {
+		String mix="";
+		
+		for (int i=0; i<a.length(); i++) {
+			for (int j=0; j<b.length(); j++) {
+			mix+=a.charAt(i)+b.charAt(j);
+			break;
+				
+			}
+		}
+		return mix;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
 //	String mixString(String s1, String s2){
 //		  
 //		String str = "";
