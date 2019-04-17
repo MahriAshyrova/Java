@@ -16,7 +16,7 @@ public class Task7 {
 		int num=scan.nextInt();
 		
 		for (int i = 2; i < num; i++) {
-            if (num % i != 0) {  
+			if (num % i != 0) 	  {  
 		   } else {
 			   isPrime=false; 
 			   break;
@@ -26,7 +26,7 @@ public class Task7 {
 	
 		
 		
-	// if !(num%2==0 && num%3==0 && num%5==0) 	
+	//   (num%2!=0 && num%3!=0 && num%5!=0)
 		
 
 	}

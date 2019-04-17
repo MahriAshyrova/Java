@@ -18,7 +18,7 @@ public class ClassStudents {
 	int CalculateAverageGrade (int a, int b, int c) {
 		
 		 int aver=0;
-		 aver+=(a+b+c)/3;
+		 aver=(a+b+c)/3;
 		 System.out.println(" and my average grade score is "+aver);
 		
 		 return aver;

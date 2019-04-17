@@ -17,22 +17,13 @@ public class MixString {
 		MixString newStr= new MixString();
 		newStr.mixString("12345", "abcde");
 		
-	System.out.println(newStr.mixString("12345", "abcde"));	
-	System.out.println(newStr.mixString("howdy", "hello"));	
-	}
+	 System.out.println(newStr.mixString("12345", "abcde"));	
+	 System.out.println(newStr.mixString("howdy", "hello"));	
 	
-	
-	String mixedString (String a, String b) {
-		String mix="";
 		
-		for (int i=0; i<a.length(); i++) {
-			for (int j=0; j<b.length(); j++) {
-			mix+=a.charAt(i)+b.charAt(j);
-			break;
-				
-			}
-		}
-		return mix;
+                        
+}
+	
 	}
 	
 	
@@ -77,7 +68,7 @@ public class MixString {
 	
 	
 
-}
+
 
 
 
