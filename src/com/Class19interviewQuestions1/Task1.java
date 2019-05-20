@@ -48,7 +48,7 @@ public class Task1 {
         
         
         x = x + y;  // Hello+Bye=HelloBye
-        y = x.substring(0, x.length() - y.length());  // Hello(HelloBye-Bye)=Hello
+        y = x.substring(0, x.length() - y.length());  // (HelloBye-Bye)=Hello
         x = x.substring(y.length());  // HelloBye(Hello)=Bye
         
         System.out.println("After : " + x + " " + y);  

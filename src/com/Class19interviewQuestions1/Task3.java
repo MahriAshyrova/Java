@@ -16,7 +16,11 @@ public class Task3 {
 		String str1="Maria";
 		System.out.println(str1.length());
 
-
+		
+		
+		
+		
+		
 	}
 
 }

@@ -23,17 +23,17 @@ public class Task8 {
 		//  System.out.print("In:");
 		//  int x = inp.nextInt();
 	    
-	    int a=0;
-	    int b=1; 
-	    int c; 
-	   		
-	   	for (int y=0; y<10; y++) {
-	   
-	   		c=a+b;
-	   		System.out.print(a+" "); 
-	   		a=b;
-	   		b=c;
-	   		
+	   	
+		int a=0;
+		int b=1;
+		int c;
+		
+		for(int i=0; i<10; i++) {
+			System.out.print(a+" ");
+			c=a+b;
+			a=b;
+			b=c;
+		}
 	   		
 	   		
 	   		
@@ -43,4 +43,4 @@ public class Task8 {
 	}
 	
 
-}
+

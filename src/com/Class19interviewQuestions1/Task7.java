@@ -9,24 +9,41 @@ public class Task7 {
 		// Write a java program to check whether a given number is prime or not?
 		// Prime number should meet 2 conditions: divisible by 1 and byItself ONLY
 		// 2, 3, 5, 7, 11, 13, 17, 19, 23, 19
+		// The number 1 is neither prime nor composite
+		
+	
+		int num=9;
 		
 		boolean isPrime=true;
-		Scanner scan=new Scanner(System.in);
-		System.out.println("Please enter any number to check if it is a prime number or not");
-		int num=scan.nextInt();
 		
-		for (int i = 2; i < num; i++) {
-			if (num % i != 0) 	  {  
-		   } else {
-			   isPrime=false; 
-			   break;
-		   }  
+		
+		for(int i=2;i<num/2; i++) {
+			if(num%i==0) {
+				isPrime=false;
+				break;
+			}
 		}
-		System.out.println(isPrime);
-	
+		if(isPrime) {
+			System.out.println("prime");
+		}else {
+			System.out.println("not prime");
+		}
+		
+		
+		
+		
+		
 		
 		
 	//   (num%2!=0 && num%3!=0 && num%5!=0)
+		
+		
+		
+		
+		
+		
+		
+		
 		
 
 	}
